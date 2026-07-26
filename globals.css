@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glassmorphism utility */
+.backdrop-glass {
+  @apply bg-white/10 backdrop-blur-xs border border-white/20 rounded-xl;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
